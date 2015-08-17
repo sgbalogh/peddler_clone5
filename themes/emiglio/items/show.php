@@ -33,7 +33,7 @@
 
 <?php if (metadata('item', array('Dublin Core', 'Coverage'))): ?>
 <?php echo metadata('item', array('Dublin Core', 'Coverage')); ?>
-<a href="../../neatline/show/citations">(View map of all citations with geography)</a>
+<a href="../../neatline/show/citations">(View map of citations)</a>
 <?php endif; ?>
 
 <br><br>
