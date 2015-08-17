@@ -25,7 +25,7 @@
 
 <?php if (metadata('item', array('Dublin Core', 'Spatial Coverage'))): ?>
 <h2>Locations</h2>
-<?php endif; ?>
+
 <div id="columned">
 <?php echo metadata('item', array('Dublin Core', 'Spatial Coverage'), array('delimiter' => '<br>')); ?>
 </div>
@@ -35,8 +35,8 @@
 <?php echo metadata('item', array('Dublin Core', 'Coverage')); ?>
 <a href="../../neatline/show/citations">(View map of citations)</a>
 <?php endif; ?>
-
 <br><br>
+<?php endif; ?>
 
 <?php if (metadata('item', array('Dublin Core', 'Temporal Coverage'))): ?>
 <h2>Time Period</h2>
