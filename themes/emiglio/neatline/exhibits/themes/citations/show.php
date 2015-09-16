@@ -153,6 +153,10 @@
    <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="NewspaperArticle"> Newspaper Article
   </label>
+     </div><div class="btn-group-justified" data-toggle="buttons">
+   <label class="btn btn-success btn-xs">
+    <input type="checkbox" name="tag" value="BermanPopulation"> Berman Center Jewish Population 2010
+  </label>
 </div>
 </div>
 <br>

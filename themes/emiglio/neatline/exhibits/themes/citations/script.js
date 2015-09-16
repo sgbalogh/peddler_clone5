@@ -1,5 +1,5 @@
 Neatline.on('start', function() {
- Neatline.execute('MAP:load', { tags: ["nothing"] });
+ Neatline.execute('MAP:load', { tags: ["null"] });
  
 var checkboxes = $('input[name="tag"]');
     var tags = [];
