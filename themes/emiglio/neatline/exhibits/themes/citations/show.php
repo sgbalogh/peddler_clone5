@@ -15,8 +15,9 @@
 <!-- Exhibit and description : -->
 <?php echo nl_getExhibitMarkup(); ?>
 <?php echo nl_getNarrativeMarkup(); ?>
-
+<br>
 <div id="multi">
+<div class="facettext">Facet by Topic</div>
 <div class="checkbox">
   <label>
     <input type="checkbox" name="tag" value="AdditionalCareers"> Additional Careers
@@ -101,9 +102,10 @@
 
 </div>
 </div>
-
+<br>
+<div class="facettext">Facet by Item Type</div>
 <select name="selector" class="form-control">
-<option name="tag" selected="selected" disabled="disabled">Search by Item Type</option>
+<option name="tag" selected="selected" disabled="disabled">Select Item Type</option>
 <option name="tag" value="Book">Book</option>
 <option name="tag" value="BookSection">Book Section</option>
 <option name="tag" value="JournalArticle">Journal Article</option>

@@ -20,3 +20,8 @@ right: 0;
     -moz-column-gap: 1px; /* Firefox */
     column-gap: 1px;
 }
+
+.facettext {
+	font-size: 15px;
+
+}
