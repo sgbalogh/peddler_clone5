@@ -164,6 +164,13 @@
 <button type="submit" name="disabletimeline" id="disable" class="btn btn-default">Disable Timeline Faceting</button>
 <br>
 
+
+<select name="selector" class="form-control">
+<option name="tag" value="hey">Hey</option>
+<option name="tag" value="ho">Ho</option>
+</select>
+
+
 <!--<div class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     <span id="dropdown_title">Select</span>

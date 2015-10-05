@@ -3,22 +3,46 @@ Neatline.on('start', function() {
  
 var checkboxes = $('input[name="tag"]');
     var tags = [];
+    var dropdowntags = [];
+    var tagsall = [];
 checkboxes.change(function() {
 tags = [];
+tagsall = [];
     
     // Gather up the set of checked tags.
     checkboxes.each(function(i, box) {
         if ($(box).prop('checked')) {
-            tags.push($(box).val());
-            console.log(tags);   
+            tags.push($(box).val());   
         }
     });
     
+tagsall = tags.concat(dropdowntags);
+console.log(tagsall);
+    
 });
 
+var dropdown = $('select[name="selector"]');
+
+dropdown.change(function() {
+dropdowntags = [];
+tagsall = []
+
+    dropdowntags.push(dropdown.val());
+    
+
+tagsall = dropdowntags.concat(tags); // adds the dropdowntags array to the tags for layers  
+
+    console.log("tags are:");
+    console.log(tagsall);  
+    
+});
+
+
+
     $('[name="submit"]').click(function() {
-  		Neatline.execute('MAP:load', { tags: tags });
-  		console.log(tags);
+  		Neatline.execute('MAP:load', { tags: tagsall });
+  		console.log("Neatline is requesting records with these tags: ");
+  		console.log(tagsall);
   });
   
 $('.btn btn-default dropdown-toggle').dropdown();
