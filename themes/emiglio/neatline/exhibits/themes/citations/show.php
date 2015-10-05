@@ -45,115 +45,115 @@
   	  <div class="JournalArticle">Journal Article</div>
 </div>-->
 <div id="multi">
-<div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+<div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="AdditionalCareers"> Additional Careers
   </label>
-  </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+  </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="AntiSemiticRhetoric"> Anti-Semitic Rhetoric
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="BusinessPractices"> Business Practices
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="ConflictViolenceCommunal"> Conflict/Violence -- Communal
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="ConflictViolencePersonal"> Conflict/Violence -- Personal
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="ContextualResource"> Contextual Resource
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="CulturalExchange"> Cultural Exchange
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="Family"> Family
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="LiteraryArtisticDepiction"> Literary or Artistic Depiction
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="NonPeddlingBackground"> Non-Peddling Background
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="PeddlingBackground"> Peddling Background
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-  <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+  <label>
     <input type="checkbox" name="tag" value="ReligiousPractices"> Religious Practices
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-   <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+   <label>
     <input type="checkbox" name="tag" value="RestrictionsCommerce"> Restrictions on Commerce/Trade
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-   <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+   <label>
     <input type="checkbox" name="tag" value="Routes"> Routes
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-   <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+   <label>
     <input type="checkbox" name="tag" value="Sponsor"> Sponsor
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-   <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+   <label>
     <input type="checkbox" name="tag" value="SubsequentCommercialCareers"> Subsequent Commercial Careers
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-   <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+   <label>
     <input type="checkbox" name="tag" value="SubsequentNonCommercial"> Subsequent Non-Commercial Careers
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-   <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+   <label>
     <input type="checkbox" name="tag" value="Transportation"> Transportation
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-     <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+     <label>
     <input type="checkbox" name="tag" value="VictimsOfCrime"> Victims Of Crime
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
-    <label class="btn btn-primary btn-xs">
+   </div><div class="checkbox">
+    <label>
     <input type="checkbox" name="tag" value="Wares"> Wares
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
+   </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="Book"> Book
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
+   </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="BookSection"> Book Section
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
+   </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="JournalArticle"> Journal Article
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
+   </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="Website"> Website
   </label>
-  </div><div class="btn-group-justified" data-toggle="buttons">
+  </div><div class="checkbox" data-toggle="buttons">
      <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="Document"> Document
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
+   </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="Thesis"> Thesis
   </label>
-   </div><div class="btn-group-justified" data-toggle="buttons">
+   </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-warning btn-xs">
     <input type="checkbox" name="tag" value="NewspaperArticle"> Newspaper Article
   </label>
-     </div><div class="btn-group-justified" data-toggle="buttons">
+     </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-success btn-xs">
     <input type="checkbox" name="tag" value="BermanPopulation"> Berman Center Jewish Population 2010
   </label>
@@ -177,8 +177,8 @@
   </ul>
 </div>-->
 
-<!--<div name="disabletimeline" class="btn-group-justified" data-toggle="buttons">
-<label class="btn btn-primary btn-xs">
+<!--<div name="disabletimeline" class="checkbox" data-toggle="buttons">
+<label>
     <input type="checkbox" name="disabletimeline" value="disabletimeline" id="disable">Disable Timeline
   </label>
   </div>-->
