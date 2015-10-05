@@ -126,33 +126,19 @@
     <input type="checkbox" name="tag" value="Wares"> Wares
   </label>
    </div><div class="checkbox" data-toggle="buttons">
-   <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="tag" value="Book"> Book
-  </label>
-   </div><div class="checkbox" data-toggle="buttons">
-   <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="tag" value="BookSection"> Book Section
-  </label>
-   </div><div class="checkbox" data-toggle="buttons">
-   <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="tag" value="JournalArticle"> Journal Article
-  </label>
-   </div><div class="checkbox" data-toggle="buttons">
-   <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="tag" value="Website"> Website
-  </label>
-  </div><div class="checkbox" data-toggle="buttons">
-     <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="tag" value="Document"> Document
-  </label>
-   </div><div class="checkbox" data-toggle="buttons">
-   <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="tag" value="Thesis"> Thesis
-  </label>
-   </div><div class="checkbox" data-toggle="buttons">
-   <label class="btn btn-warning btn-xs">
-    <input type="checkbox" name="tag" value="NewspaperArticle"> Newspaper Article
-  </label>
+
+<select name="selector" class="form-control">
+<option name="tag" selected="selected" disabled="disabled">Search by Item Type</option>
+<option name="tag" value="Book">Book</option>
+<option name="tag" value="BookSection">Book Section</option>
+<option name="tag" value="JournalArticle">Journal Article</option>
+<option name="tag" value="Website">Website</option>
+<option name="tag" value="Document">Document</option>
+<option name="tag" value="Thesis">Thesis</option>
+<option name="tag" value="NewspaperArticle">Newspaper Article</option>
+<option name="tag" value="All">All</option>
+</select>
+
      </div><div class="checkbox" data-toggle="buttons">
    <label class="btn btn-success btn-xs">
     <input type="checkbox" name="tag" value="BermanPopulation"> Berman Center Jewish Population 2010
@@ -165,10 +151,6 @@
 <br>
 
 
-<select name="selector" class="form-control">
-<option name="tag" value="hey">Hey</option>
-<option name="tag" value="ho">Ho</option>
-</select>
 
 
 <!--<div class="dropdown">
