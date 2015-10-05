@@ -17,6 +17,8 @@ tagsall = [];
     });
     
 tagsall = tags.concat(dropdowntags);
+
+console.log("Selected tags: ");
 console.log(tagsall);
     
 });
@@ -27,12 +29,14 @@ dropdown.change(function() {
 dropdowntags = [];
 tagsall = []
 
+if ((dropdown.val()) != "All") {
     dropdowntags.push(dropdown.val());
+    }
     
 
 tagsall = dropdowntags.concat(tags); // adds the dropdowntags array to the tags for layers  
 
-    console.log("tags are:");
+    console.log("Selected tags: ");
     console.log(tagsall);  
     
 });
@@ -45,10 +49,10 @@ tagsall = dropdowntags.concat(tags); // adds the dropdowntags array to the tags 
   		console.log(tagsall);
   });
   
-$('.btn btn-default dropdown-toggle').dropdown();
+$('.btn btn-default dropdown-toggle').dropdown(); // Can this be deleted? (10.5.2015)
 
 
-$('#divNewNotifications li').on('click', function() {
+$('#divNewNotifications li').on('click', function() { // Can this be deleted? (10.5.2015)
     $('#dropdown_title').html($(this).find('a').html());
     });
     
