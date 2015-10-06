@@ -136,7 +136,8 @@
             <div class="element-text"><p><?php echo link_to_collection_for_item(); ?></p></div>
         </div>
     <?php endif; ?>
-
-
-
-
+</hr>
+<!-- Link. -->
+<?php echo link_to(
+  get_current_record('item'), 'show', 'View the item in Omeka'
+); ?>
